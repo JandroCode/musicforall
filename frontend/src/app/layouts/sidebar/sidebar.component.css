@@ -1,0 +1,29 @@
+
+aside {
+  background-color: rgb(32, 29, 29);
+  padding: 20px;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+
+  ul {
+    margin-top: 80px;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      margin: 15px 0;
+
+      a {
+        text-decoration: none;
+        color: #979090;
+
+        &:hover {
+          color: #007bff;
+        }
+      }
+    }
+  }
+}
